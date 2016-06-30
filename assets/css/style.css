@@ -1,0 +1,230 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 150px;
+}
+
+p {
+	color: #212121;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+}
+
+h1 {
+	color: #FF5722;
+	font-family: 'Quando', serif;
+}
+
+
+h2 {
+	color: #FF5722;
+	font-family: 'Quando', serif;
+	font-size: 20px;
+}
+
+h3 {
+	color: #FF5722;	
+	font-family: 'Quando', serif;
+	font-size: 20px;
+}
+
+cite {
+	color: #03A9F4;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+}
+
+/* Edit Template's main navigation */
+
+.navbar {
+	margin: 40px 0 0 40px;
+}
+
+.navbar-brand, .navbar-brand a {
+	padding: 0;
+	height: 75px;
+}
+
+.nav-pills > li > a {
+	padding-top: 29px; /* Remove this if using a text logo. Adjust if using a differently sized img logo */
+	font-size: 18px;
+	color: #fff; /* change main menu button color */
+}
+
+.nav-pills > li > a:active, .nav-pills > li > a:hover, .nav-pills > li > a:focus {
+	color: #FFCCBC;
+	background: none;
+}
+
+/* end of main navigation */
+
+/* Edit Header Elements */
+
+.jumbotron {
+	padding: 0;
+	background: #FF5722;
+	margin-bottom: 0;
+}
+
+.header-elements {
+	color: #fff;	
+}
+
+.header-elements h1 {
+	margin-top: 80px;
+	font-family: 'Quando', serif;
+	font-size: 48px;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.header-elements h4 {
+	margin-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	margin-bottom: 40px;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* end Header Elements */
+
+/* edit button and input  Elements */
+
+.btn, .btn-primary, 
+.btn-primary:focus, 
+.btn-primary:active {
+	background: #03A9F4;/* Use to change main button Color */
+	border: none;
+	border-radius: 0px; /* increase pixels for rounded corners */
+}
+
+.btn-primary:active:focus, 
+.btn-primary:active:hover, 
+.btn-primary:hover {
+	background: #0394D6;
+}
+
+
+
+.btn a {
+	text-decoration: none;
+	color: #fff; /* Use to change main button Text Color */
+}
+
+.input-group, .form-control {
+	border: none;
+	background: #FF5722;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	height: 50px;
+	
+}
+
+.input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group {
+	height: 50px;
+	background: #03A9F4;
+	font-family: 'Quando', serif;
+	font-size: 24px;
+	color: #fff;
+	border: none;
+	width: 100px;
+}
+
+.input-group-btn:first-child>.btn:hover, .input-group-btn:first-child>.btn:active, .input-group-btn:first-child>.btn:focus {
+	background: #0394D6;
+	border: none;
+}
+
+.form-control::-webkit-input-placeholder { 
+	color: white; 
+}
+
+.form-control:-moz-placeholder { 
+	color: white; 
+}
+
+.form-control::-moz-placeholder { 
+	color: white; 
+}
+
+.form-control:-ms-input-placeholder { 
+	color: white; 
+}
+
+/* end button and input Elements */
+
+/* Sections and images */
+
+.img-center {
+	margin:0 auto;
+}
+
+#section-two {
+	padding: 40px 0 20px 0;
+	margin-bottom: 40px;
+}
+
+#section-three img {
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(100%); 
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(100%); 
+}
+
+#section-three img:hover {
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(0%);
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(0%);
+  -o-transition: .5s ease-in-out;
+  filter: grayscale(0%);
+} 
+
+#section-three {
+	background: #212121;
+	padding: 40px 0 30px 0;	
+}
+
+#section-three h4 {
+	color: #fff;
+	font-family: 'Quando', serif;
+	font-size: 16px;
+}
+
+/* End sections and images*/
+
+
+
+.fa {
+	font-size: 50px;
+	color: #03A9F4;
+	border-radius: 0;
+	margin-right: 27px;
+}
+
+.fa:hover {
+	color: #0394D6;
+}
+
+.footer {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 110px;
+  background-color: #FF5722;
+}
+
+.footer p {
+	color: #fff;
+	padding-top: 50px;
+}
+
+
+
